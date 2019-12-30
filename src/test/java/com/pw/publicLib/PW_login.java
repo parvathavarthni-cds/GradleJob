@@ -15,15 +15,14 @@ public class PW_login {
 //		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 //		String chromeDriverPath = "/var/lib/jenkins/tools/chromedriver/chromedriver";
 //		System.setProperty("webdriver.chrome.driver", chromeDriverPath);
+		ChromeOptions chromeOptions = new ChromeOptions();
+		chromeOptions.addArguments("--headless");
+		driver = new ChromeDriver(chromeOptions);
 		
-//		ChromeOptions chromeOptions = new ChromeOptions();
-//		chromeOptions.addArguments("--headless");
-//		driver = new ChromeDriver(chromeOptions);
-		
-	driver = new ChromeDriver();
-		driver.get(HomePageURL);
-		driver.manage().window().setSize(new Dimension(1920, 1080));
-		driver.manage().window().maximize();
+		//driver = new ChromeDriver();
+		//driver.get(HomePageURL);
+		//driver.manage().window().setSize(new Dimension(1920, 1080));
+		//driver.manage().window().maximize();
 		return driver;
 		
 	}

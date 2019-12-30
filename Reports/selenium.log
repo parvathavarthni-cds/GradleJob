@@ -1,0 +1,51 @@
+18:26:48,064 DEBUG io.github.bonigarcia.wdm.Preferences<strong>{1}</strong>:95 - Removing preference chromedriver-linux64 2.46 (expired on 2019-12-26 15:03:48)
+18:26:50,186 DEBUG io.github.bonigarcia.wdm.WebDriverManager<strong>{1}</strong>:571 - Browser version chrome 72 not found in local versions.properties
+18:26:51,496 DEBUG io.github.bonigarcia.wdm.WebDriverManager<strong>{1}</strong>:585 - Using online version.properties (from GitHub) to find out driver version
+18:26:51,506  INFO io.github.bonigarcia.wdm.WebDriverManager<strong>{1}</strong>:551 - Using chromedriver 2.46 (since Google Chrome 72 is installed in your machine)
+18:26:51,638 DEBUG io.github.bonigarcia.wdm.Preferences<strong>{1}</strong>:63 - Storing version 2.46 for chromedriver-linux64 as Java preferences (valid until 2019-12-26 19:26:51)
+18:26:51,640 DEBUG io.github.bonigarcia.wdm.WebDriverManager<strong>{1}</strong>:519 - Driver chromedriver 2.46 found in cache
+18:26:51,642  INFO io.github.bonigarcia.wdm.WebDriverManager<strong>{1}</strong>:939 - Exporting webdriver.chrome.driver as /home/parvathavarthini/.m2/repository/webdriver/chromedriver/linux64/2.46/chromedriver
+18:34:49,222 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+18:34:49,227 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+18:34:49,234 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+18:34:49,235 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/home/parvathavarthini/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/3.1.1/36ce19ec9fe381bc0c0574857fa6dbb332c87858/extentreports-3.1.1.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+18:34:49,506 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+18:34:49,507 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+18:34:49,507 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+18:34:49,508 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/home/parvathavarthini/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/3.1.1/36ce19ec9fe381bc0c0574857fa6dbb332c87858/extentreports-3.1.1.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+18:34:49,570 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+18:34:49,572 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+18:34:49,573 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+18:34:49,573 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/home/parvathavarthini/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/3.1.1/36ce19ec9fe381bc0c0574857fa6dbb332c87858/extentreports-3.1.1.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+18:34:49,591 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+18:34:49,592 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+18:34:49,592 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+18:34:49,592 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/home/parvathavarthini/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/3.1.1/36ce19ec9fe381bc0c0574857fa6dbb332c87858/extentreports-3.1.1.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+18:34:49,609 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+18:34:49,611 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+18:34:49,612 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+18:34:49,612 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/home/parvathavarthini/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/3.1.1/36ce19ec9fe381bc0c0574857fa6dbb332c87858/extentreports-3.1.1.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+18:34:49,626 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "test-view/bdd.ftl"("en", UTF-8, parsed); will try to load it.
+18:34:49,627 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("test-view/bdd_en.ftl"): Not found
+18:34:49,628 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("test-view/bdd.ftl"): Found
+18:34:49,629 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "test-view/bdd.ftl"("en", UTF-8, parsed) from "jar:file:/home/parvathavarthini/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/3.1.1/36ce19ec9fe381bc0c0574857fa6dbb332c87858/extentreports-3.1.1.jar!/com/aventstack/extentreports/view/html-report/test-view/bdd.ftl"
+18:34:49,686 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+18:34:49,687 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+18:34:49,687 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+18:34:49,687 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/home/parvathavarthini/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/3.1.1/36ce19ec9fe381bc0c0574857fa6dbb332c87858/extentreports-3.1.1.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+18:34:49,693 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+18:34:49,696 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+18:34:49,696 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+18:34:49,697 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/home/parvathavarthini/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/3.1.1/36ce19ec9fe381bc0c0574857fa6dbb332c87858/extentreports-3.1.1.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+18:34:49,702 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+18:34:49,703 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+18:34:49,704 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+18:34:49,705 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/home/parvathavarthini/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/3.1.1/36ce19ec9fe381bc0c0574857fa6dbb332c87858/extentreports-3.1.1.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+18:34:49,718 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+18:34:49,718 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+18:34:49,719 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+18:34:49,719 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/home/parvathavarthini/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/3.1.1/36ce19ec9fe381bc0c0574857fa6dbb332c87858/extentreports-3.1.1.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+18:34:49,734 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+18:34:49,735 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+18:34:49,736 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+18:34:49,737 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/home/parvathavarthini/.gradle/caches/modules-2/files-2.1/com.aventstack/extentreports/3.1.1/36ce19ec9fe381bc0c0574857fa6dbb332c87858/extentreports-3.1.1.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"

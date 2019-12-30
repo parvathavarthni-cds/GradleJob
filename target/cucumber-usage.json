@@ -1,0 +1,1400 @@
+[
+  {
+    "source": "^add sell order extended side tray should open and user should be able to edit the order$",
+    "steps": [
+      {
+        "name": "add sell order extended side tray should open and user should be able to edit the order",
+        "aggregatedDurations": {
+          "average": 5.069547396,
+          "median": 5.069547396
+        },
+        "durations": [
+          {
+            "duration": 5.069547396,
+            "location": "Features/Side_tray_add_sell_order.feature:123"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Asset name and asset code should be displayed under the before and after impacts of Units$",
+    "steps": [
+      {
+        "name": "Asset name and asset code should be displayed under the before and after impacts of Units",
+        "aggregatedDurations": {
+          "average": 0.081010653,
+          "median": 0.081010653
+        },
+        "durations": [
+          {
+            "duration": 0.081010653,
+            "location": "Features/Side_tray_add_sell_order.feature:170"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should not be allowed to enter the special character and text values into the order amount field$",
+    "steps": [
+      {
+        "name": "user should not be allowed to enter the special character and text values into the order amount field",
+        "aggregatedDurations": {
+          "average": 2.062234009,
+          "median": 2.062234009
+        },
+        "durations": [
+          {
+            "duration": 2.062234009,
+            "location": "Features/Side_tray_add_sell_order.feature:58"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user select the ’No’ option$",
+    "steps": [
+      {
+        "name": "user select the ’No’ option",
+        "aggregatedDurations": {
+          "average": 0.331666658,
+          "median": 0.331666658
+        },
+        "durations": [
+          {
+            "duration": 0.331666658,
+            "location": "Features/Side_tray_add_sell_order.feature:93"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user click the available draft order$",
+    "steps": [
+      {
+        "name": "user click the available draft order",
+        "aggregatedDurations": {
+          "average": 0.086391983,
+          "median": 0.086391983
+        },
+        "durations": [
+          {
+            "duration": 0.086391983,
+            "location": "Features/Side_tray_add_sell_order.feature:122"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks the portfolio dropdown in `place an order` side tray$",
+    "steps": [
+      {
+        "name": "user clicks the portfolio dropdown in `place an order` side tray",
+        "aggregatedDurations": {
+          "average": 22.002091089,
+          "median": 22.002091089
+        },
+        "durations": [
+          {
+            "duration": 22.002091089,
+            "location": "Features/Side_tray_add_sell_order.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user enters more than available units$",
+    "steps": [
+      {
+        "name": "the user enters more than available units",
+        "aggregatedDurations": {
+          "average": 0.193867428,
+          "median": 0.193867428
+        },
+        "durations": [
+          {
+            "duration": 0.193867428,
+            "location": "Features/Side_tray_add_sell_order.feature:69"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^order should be saved as draft order and should be displayed on the place order screen$",
+    "steps": [
+      {
+        "name": "order should be saved as draft order and should be displayed on the place order screen",
+        "aggregatedDurations": {
+          "average": 5.06739807,
+          "median": 5.06739807
+        },
+        "durations": [
+          {
+            "duration": 5.06739807,
+            "location": "Features/Side_tray_add_sell_order.feature:117"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^that particular order should be get disappear from the draft order screen$",
+    "steps": [
+      {
+        "name": "that particular order should be get disappear from the draft order screen",
+        "aggregatedDurations": {
+          "average": 5.04992028,
+          "median": 5.04992028
+        },
+        "durations": [
+          {
+            "duration": 5.04992028,
+            "location": "Features/Side_tray_add_sell_order.feature:154"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks the back button$",
+    "steps": [
+      {
+        "name": "user clicks the back button",
+        "aggregatedDurations": {
+          "average": 2.122821622,
+          "median": 2.122821622
+        },
+        "durations": [
+          {
+            "duration": 2.122821622,
+            "location": "Features/Side_tray_add_sell_order.feature:175"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should get the \u0027Full redemption\u0027 message under the order value text box$",
+    "steps": [
+      {
+        "name": "user should get the \u0027Full redemption\u0027 message under the order value text box",
+        "aggregatedDurations": {
+          "average": 2.057180063,
+          "median": 2.057180063
+        },
+        "durations": [
+          {
+            "duration": 2.057180063,
+            "location": "Features/Side_tray_add_sell_order.feature:76"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^place order side tray should open$",
+    "steps": [
+      {
+        "name": "place order side tray should open",
+        "aggregatedDurations": {
+          "average": 3.243424734,
+          "median": 3.243424734
+        },
+        "durations": [
+          {
+            "duration": 3.243424734,
+            "location": "Features/Side_tray_add_sell_order.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is on Portfolio screen$",
+    "steps": [
+      {
+        "name": "user is on Portfolio screen",
+        "aggregatedDurations": {
+          "average": 0.014663895,
+          "median": 0.014663895
+        },
+        "durations": [
+          {
+            "duration": 0.014663895,
+            "location": "Features/Side_tray_add_sell_order.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user search for any portfolio holding using the searchbox$",
+    "steps": [
+      {
+        "name": "user search for any portfolio holding using the searchbox",
+        "aggregatedDurations": {
+          "average": 13.486650402,
+          "median": 13.486650402
+        },
+        "durations": [
+          {
+            "duration": 13.486650402,
+            "location": "Features/Side_tray_add_sell_order.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^updated new changes should be displayed in the draft order screen$",
+    "steps": [
+      {
+        "name": "updated new changes should be displayed in the draft order screen",
+        "aggregatedDurations": {
+          "average": 5.100735386,
+          "median": 5.100735386
+        },
+        "durations": [
+          {
+            "duration": 5.100735386,
+            "location": "Features/Side_tray_add_sell_order.feature:130"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should be able to search different portfolios from the portfolio dropdown$",
+    "steps": [
+      {
+        "name": "user should be able to search different portfolios from the portfolio dropdown",
+        "aggregatedDurations": {
+          "average": 9.270338495,
+          "median": 9.270338495
+        },
+        "durations": [
+          {
+            "duration": 9.270338495,
+            "location": "Features/Side_tray_add_sell_order.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User should navigate to the preview order screen$",
+    "steps": [
+      {
+        "name": "User should navigate to the preview order screen",
+        "aggregatedDurations": {
+          "average": 5.122715102,
+          "median": 5.122715102
+        },
+        "durations": [
+          {
+            "duration": 5.122715102,
+            "location": "Features/Side_tray_add_sell_order.feature:162"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User click the order confirm button after selecting all the mandatory fields$",
+    "steps": [
+      {
+        "name": "User click the order confirm button after selecting all the mandatory fields",
+        "aggregatedDurations": {
+          "average": 7.2339848,
+          "median": 7.2339848
+        },
+        "durations": [
+          {
+            "duration": 7.2339848,
+            "location": "Features/Side_tray_add_sell_order.feature:200"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^page should be navigated to selected Portfolio summary screen and ‘Place an Order’ button should be enabled on PV screen$",
+    "steps": [
+      {
+        "name": "page should be navigated to selected Portfolio summary screen and ‘Place an Order’ button should be enabled on PV screen",
+        "aggregatedDurations": {
+          "average": 5.070629074,
+          "median": 5.070629074
+        },
+        "durations": [
+          {
+            "duration": 5.070629074,
+            "location": "Features/Side_tray_add_sell_order.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^error message should be displayed under the order amount screen$",
+    "steps": [
+      {
+        "name": "error message should be displayed under the order amount screen",
+        "aggregatedDurations": {
+          "average": 2.056761757,
+          "median": 2.056761757
+        },
+        "durations": [
+          {
+            "duration": 2.056761757,
+            "location": "Features/Side_tray_add_sell_order.feature:52"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user clicks the add button from Add a sell order extended side tray$",
+    "steps": [
+      {
+        "name": "the user clicks the add button from Add a sell order extended side tray",
+        "aggregatedDurations": {
+          "average": 0.155205164,
+          "median": 0.155205164
+        },
+        "durations": [
+          {
+            "duration": 0.155205164,
+            "location": "Features/Side_tray_add_sell_order.feature:116"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user didn’t enter/select anything on the screen$",
+    "steps": [
+      {
+        "name": "the user didn’t enter/select anything on the screen",
+        "aggregatedDurations": {
+          "average": 0.031067104,
+          "median": 0.031067104
+        },
+        "durations": [
+          {
+            "duration": 0.031067104,
+            "location": "Features/Side_tray_add_sell_order.feature:63"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user enters the order units$",
+    "steps": [
+      {
+        "name": "the user enters the order units",
+        "aggregatedDurations": {
+          "average": 0.120293418,
+          "median": 0.120293418
+        },
+        "durations": [
+          {
+            "duration": 0.120293418,
+            "location": "Features/Side_tray_add_sell_order.feature:86"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^order units should be multiplied with the exit price and the result should be subtracted with a transaction fee$",
+    "steps": [
+      {
+        "name": "order units should be multiplied with the exit price and the result should be subtracted with a transaction fee",
+        "aggregatedDurations": {
+          "average": 0.070139393,
+          "median": 0.070139393
+        },
+        "durations": [
+          {
+            "duration": 0.070139393,
+            "location": "Features/Side_tray_add_sell_order.feature:87"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user enters the Special character and text values in the order amount text box$",
+    "steps": [
+      {
+        "name": "the user enters the Special character and text values in the order amount text box",
+        "aggregatedDurations": {
+          "average": 0.132331254,
+          "median": 0.132331254
+        },
+        "durations": [
+          {
+            "duration": 0.132331254,
+            "location": "Features/Side_tray_add_sell_order.feature:57"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is on ‘Add a sell order’ extended side tray$",
+    "steps": [
+      {
+        "name": "user is on ‘Add a sell order’ extended side tray",
+        "aggregatedDurations": {
+          "average": 3.108021949,
+          "median": 3.101386866
+        },
+        "durations": [
+          {
+            "duration": 3.099423003,
+            "location": "Features/Side_tray_add_sell_order.feature:32"
+          },
+          {
+            "duration": 3.104389503,
+            "location": "Features/Side_tray_add_sell_order.feature:38"
+          },
+          {
+            "duration": 3.081187003,
+            "location": "Features/Side_tray_add_sell_order.feature:44"
+          },
+          {
+            "duration": 3.084576478,
+            "location": "Features/Side_tray_add_sell_order.feature:50"
+          },
+          {
+            "duration": 3.064770271,
+            "location": "Features/Side_tray_add_sell_order.feature:56"
+          },
+          {
+            "duration": 3.081857581,
+            "location": "Features/Side_tray_add_sell_order.feature:62"
+          },
+          {
+            "duration": 3.103350729,
+            "location": "Features/Side_tray_add_sell_order.feature:68"
+          },
+          {
+            "duration": 3.12414216,
+            "location": "Features/Side_tray_add_sell_order.feature:74"
+          },
+          {
+            "duration": 3.171742142,
+            "location": "Features/Side_tray_add_sell_order.feature:85"
+          },
+          {
+            "duration": 3.108853725,
+            "location": "Features/Side_tray_add_sell_order.feature:92"
+          },
+          {
+            "duration": 3.180004541,
+            "location": "Features/Side_tray_add_sell_order.feature:98"
+          },
+          {
+            "duration": 3.091966256,
+            "location": "Features/Side_tray_add_sell_order.feature:115"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user changes the different asset or order value$",
+    "steps": [
+      {
+        "name": "user changes the different asset or order value",
+        "aggregatedDurations": {
+          "average": 2.120869076,
+          "median": 2.120869076
+        },
+        "durations": [
+          {
+            "duration": 2.120869076,
+            "location": "Features/Side_tray_add_sell_order.feature:128"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^extended side tray should be closed and the user should navigate back to place order side tray$",
+    "steps": [
+      {
+        "name": "extended side tray should be closed and the user should navigate back to place order side tray",
+        "aggregatedDurations": {
+          "average": 11.240669255,
+          "median": 11.240669255
+        },
+        "durations": [
+          {
+            "duration": 11.240669255,
+            "location": "Features/Side_tray_add_sell_order.feature:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^add button should be enabled$",
+    "steps": [
+      {
+        "name": "add button should be enabled",
+        "aggregatedDurations": {
+          "average": 0.030467013,
+          "median": 0.030467013
+        },
+        "durations": [
+          {
+            "duration": 0.030467013,
+            "location": "Features/Side_tray_add_sell_order.feature:102"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^click the update button$",
+    "steps": [
+      {
+        "name": "click the update button",
+        "aggregatedDurations": {
+          "average": 0.160880492,
+          "median": 0.160880492
+        },
+        "durations": [
+          {
+            "duration": 0.160880492,
+            "location": "Features/Side_tray_add_sell_order.feature:129"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^transaction summary value on preview order screen and addition of draft orders value should be same$",
+    "steps": [
+      {
+        "name": "transaction summary value on preview order screen and addition of draft orders value should be same",
+        "aggregatedDurations": {
+          "average": 0.112334574,
+          "median": 0.112334574
+        },
+        "durations": [
+          {
+            "duration": 0.112334574,
+            "location": "Features/Side_tray_add_sell_order.feature:163"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user selects any portfolio from portfolio dropdown which is up-to-date$",
+    "steps": [
+      {
+        "name": "user selects any portfolio from portfolio dropdown which is up-to-date",
+        "aggregatedDurations": {
+          "average": 28.075065209,
+          "median": 28.075065209
+        },
+        "durations": [
+          {
+            "duration": 28.075065209,
+            "location": "Features/Side_tray_add_sell_order.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is can able to view the confirmation popup for close order$",
+    "steps": [
+      {
+        "name": "user is can able to view the confirmation popup for close order",
+        "aggregatedDurations": {
+          "average": 6.316770382,
+          "median": 6.316770382
+        },
+        "durations": [
+          {
+            "duration": 6.316770382,
+            "location": "Features/Side_tray_add_sell_order.feature:152"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Confirm order button should be in disable mode$",
+    "steps": [
+      {
+        "name": "Confirm order button should be in disable mode",
+        "aggregatedDurations": {
+          "average": 0.073379748,
+          "median": 0.073379748
+        },
+        "durations": [
+          {
+            "duration": 0.073379748,
+            "location": "Features/Side_tray_add_sell_order.feature:183"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^error message should be displayed under the order amount text box$",
+    "steps": [
+      {
+        "name": "error message should be displayed under the order amount text box",
+        "aggregatedDurations": {
+          "average": 2.058841017,
+          "median": 2.058841017
+        },
+        "durations": [
+          {
+            "duration": 2.058841017,
+            "location": "Features/Side_tray_add_sell_order.feature:70"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User should be navigated to the order draft screen$",
+    "steps": [
+      {
+        "name": "User should be navigated to the order draft screen",
+        "aggregatedDurations": {
+          "average": 0.028306315,
+          "median": 0.028306315
+        },
+        "durations": [
+          {
+            "duration": 0.028306315,
+            "location": "Features/Side_tray_add_sell_order.feature:176"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user didn’t select the disclaimer checkbox$",
+    "steps": [
+      {
+        "name": "the user didn’t select the disclaimer checkbox",
+        "aggregatedDurations": {
+          "average": 5.000167161,
+          "median": 5.000167161
+        },
+        "durations": [
+          {
+            "duration": 5.000167161,
+            "location": "Features/Side_tray_add_sell_order.feature:182"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user finds the availble exit price of that portfolio holding on extended side tray$",
+    "steps": [
+      {
+        "name": "user finds the availble exit price of that portfolio holding on extended side tray",
+        "aggregatedDurations": {
+          "average": 0.040132311,
+          "median": 0.040132311
+        },
+        "durations": [
+          {
+            "duration": 0.040132311,
+            "location": "Features/Side_tray_add_sell_order.feature:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^that order should not be closed and order should be displayed on the draft order screen$",
+    "steps": [
+      {
+        "name": "that order should not be closed and order should be displayed on the draft order screen",
+        "aggregatedDurations": {
+          "average": 3.067698382,
+          "median": 3.067698382
+        },
+        "durations": [
+          {
+            "duration": 3.067698382,
+            "location": "Features/Side_tray_add_sell_order.feature:148"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is on Hive DashBoard screen$",
+    "steps": [
+      {
+        "name": "user is on Hive DashBoard screen",
+        "aggregatedDurations": {
+          "average": 38.739128158,
+          "median": 38.739128158
+        },
+        "durations": [
+          {
+            "duration": 38.739128158,
+            "location": "Features/Side_tray_add_sell_order.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^\u0027Advice given\u0027 details should not be displayed$",
+    "steps": [
+      {
+        "name": "\u0027Advice given\u0027 details should not be displayed",
+        "aggregatedDurations": {
+          "average": 2.050518794,
+          "median": 2.050518794
+        },
+        "durations": [
+          {
+            "duration": 2.050518794,
+            "location": "Features/Side_tray_add_sell_order.feature:94"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Order Confirm button should be enabled$",
+    "steps": [
+      {
+        "name": "Order Confirm button should be enabled",
+        "aggregatedDurations": {
+          "average": 0.034102136,
+          "median": 0.034102136
+        },
+        "durations": [
+          {
+            "duration": 0.034102136,
+            "location": "Features/Side_tray_add_sell_order.feature:195"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is can able to view the confirmation pop-up for close order$",
+    "steps": [
+      {
+        "name": "user is can able to view the confirmation pop-up for close order",
+        "aggregatedDurations": {
+          "average": 2.094128272,
+          "median": 2.094128272
+        },
+        "durations": [
+          {
+            "duration": 2.094128272,
+            "location": "Features/Side_tray_add_sell_order.feature:146"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^place order, portfolio dropdown should be pre-populated the selected portfolio tab$",
+    "steps": [
+      {
+        "name": "place order, portfolio dropdown should be pre-populated the selected portfolio tab",
+        "aggregatedDurations": {
+          "average": 3.307812976,
+          "median": 3.307812976
+        },
+        "durations": [
+          {
+            "duration": 3.307812976,
+            "location": "Features/Side_tray_add_sell_order.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Date field should have todays\u0027s field as default$",
+    "steps": [
+      {
+        "name": "Date field should have todays\u0027s field as default",
+        "aggregatedDurations": {
+          "average": 0.056458232,
+          "median": 0.056458232
+        },
+        "durations": [
+          {
+            "duration": 0.056458232,
+            "location": "Features/Side_tray_add_sell_order.feature:101"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is on the draft order screen$",
+    "steps": [
+      {
+        "name": "user is on the draft order screen",
+        "aggregatedDurations": {
+          "average": 0.041881699,
+          "median": 0.035572723
+        },
+        "durations": [
+          {
+            "duration": 0.032393009,
+            "location": "Features/Side_tray_add_sell_order.feature:121"
+          },
+          {
+            "duration": 0.035572723,
+            "location": "Features/Side_tray_add_sell_order.feature:134"
+          },
+          {
+            "duration": 0.078853767,
+            "location": "Features/Side_tray_add_sell_order.feature:140"
+          },
+          {
+            "duration": 0.036847423,
+            "location": "Features/Side_tray_add_sell_order.feature:160"
+          },
+          {
+            "duration": 0.025741575,
+            "location": "Features/Side_tray_add_sell_order.feature:180"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user finds before and after portfolio impact of the available units$",
+    "steps": [
+      {
+        "name": "the user finds before and after portfolio impact of the available units",
+        "aggregatedDurations": {
+          "average": 0.041434783,
+          "median": 0.041434783
+        },
+        "durations": [
+          {
+            "duration": 0.041434783,
+            "location": "Features/Side_tray_add_sell_order.feature:168"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is on the preview order screen$",
+    "steps": [
+      {
+        "name": "user is on the preview order screen",
+        "aggregatedDurations": {
+          "average": 5.052783525,
+          "median": 5.036362908
+        },
+        "durations": [
+          {
+            "duration": 5.029924463,
+            "location": "Features/Side_tray_add_sell_order.feature:167"
+          },
+          {
+            "duration": 5.036362908,
+            "location": "Features/Side_tray_add_sell_order.feature:174"
+          },
+          {
+            "duration": 5.098525118,
+            "location": "Features/Side_tray_add_sell_order.feature:187"
+          },
+          {
+            "duration": 5.023864784,
+            "location": "Features/Side_tray_add_sell_order.feature:193"
+          },
+          {
+            "duration": 5.075240354,
+            "location": "Features/Side_tray_add_sell_order.feature:199"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user clicks anywhere in the screen without entering anything on the order amount field$",
+    "steps": [
+      {
+        "name": "the user clicks anywhere in the screen without entering anything on the order amount field",
+        "aggregatedDurations": {
+          "average": 0.084485612,
+          "median": 0.084485612
+        },
+        "durations": [
+          {
+            "duration": 0.084485612,
+            "location": "Features/Side_tray_add_sell_order.feature:51"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user clicks the cancel button from the extended side tray$",
+    "steps": [
+      {
+        "name": "the user clicks the cancel button from the extended side tray",
+        "aggregatedDurations": {
+          "average": 5.173392516,
+          "median": 5.173392516
+        },
+        "durations": [
+          {
+            "duration": 5.173392516,
+            "location": "Features/Side_tray_add_sell_order.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^available units should be reduced based on the order units for that Asset type$",
+    "steps": [
+      {
+        "name": "available units should be reduced based on the order units for that Asset type",
+        "aggregatedDurations": {
+          "average": 0.000648058,
+          "median": 0.000648058
+        },
+        "durations": [
+          {
+            "duration": 0.000648058,
+            "location": "Features/Side_tray_add_sell_order.feature:169"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user enter the enters the order amount which is equal to available units$",
+    "steps": [
+      {
+        "name": "the user enter the enters the order amount which is equal to available units",
+        "aggregatedDurations": {
+          "average": 0.300472291,
+          "median": 0.300472291
+        },
+        "durations": [
+          {
+            "duration": 0.300472291,
+            "location": "Features/Side_tray_add_sell_order.feature:75"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is on the edit order screen$",
+    "steps": [
+      {
+        "name": "user is on the edit order screen",
+        "aggregatedDurations": {
+          "average": 5.038513702,
+          "median": 5.038513702
+        },
+        "durations": [
+          {
+            "duration": 5.038513702,
+            "location": "Features/Side_tray_add_sell_order.feature:127"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user clicks the Go back button$",
+    "steps": [
+      {
+        "name": "the user clicks the Go back button",
+        "aggregatedDurations": {
+          "average": 0.223157831,
+          "median": 0.223157831
+        },
+        "durations": [
+          {
+            "duration": 0.223157831,
+            "location": "Features/Side_tray_add_sell_order.feature:147"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks the close button for any draft order card$",
+    "steps": [
+      {
+        "name": "user clicks the close button for any draft order card",
+        "aggregatedDurations": {
+          "average": 2.177124478,
+          "median": 2.177124478
+        },
+        "durations": [
+          {
+            "duration": 2.177124478,
+            "location": "Features/Side_tray_add_sell_order.feature:141"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^newly placed order should be displayed under the previous order on the draft order screen$",
+    "steps": [
+      {
+        "name": "newly placed order should be displayed under the previous order on the draft order screen",
+        "aggregatedDurations": {
+          "average": 2.123833123,
+          "median": 2.123833123
+        },
+        "durations": [
+          {
+            "duration": 2.123833123,
+            "location": "Features/Side_tray_add_sell_order.feature:136"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^available exit price for that unit should be displayed with est\\.label$",
+    "steps": [
+      {
+        "name": "available exit price for that unit should be displayed with est.label",
+        "aggregatedDurations": {
+          "average": 0.000740711,
+          "median": 0.000740711
+        },
+        "durations": [
+          {
+            "duration": 0.000740711,
+            "location": "Features/Side_tray_add_sell_order.feature:46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User selects the disclaimer checkbox$",
+    "steps": [
+      {
+        "name": "User selects the disclaimer checkbox",
+        "aggregatedDurations": {
+          "average": 2.099319057,
+          "median": 2.099319057
+        },
+        "durations": [
+          {
+            "duration": 2.099319057,
+            "location": "Features/Side_tray_add_sell_order.feature:194"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Final calculated value should be displayed as order value est with (\\d+) decimal places$",
+    "steps": [
+      {
+        "name": "Final calculated value should be displayed as order value est with 2 decimal places",
+        "aggregatedDurations": {
+          "average": 0.036764473,
+          "median": 0.036764473
+        },
+        "durations": [
+          {
+            "duration": 0.036764473,
+            "location": "Features/Side_tray_add_sell_order.feature:88"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^advice reason, date, summary and advice method fields should be display under the advice given label$",
+    "steps": [
+      {
+        "name": "advice reason, date, summary and advice method fields should be display under the advice given label",
+        "aggregatedDurations": {
+          "average": 4.839871667,
+          "median": 4.839871667
+        },
+        "durations": [
+          {
+            "duration": 4.839871667,
+            "location": "Features/Side_tray_add_sell_order.feature:100"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user clicks the sell order button$",
+    "steps": [
+      {
+        "name": "the user clicks the sell order button",
+        "aggregatedDurations": {
+          "average": 8.197494819,
+          "median": 8.197494819
+        },
+        "durations": [
+          {
+            "duration": 8.197494819,
+            "location": "Features/Side_tray_add_sell_order.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user clicks the cancel order button$",
+    "steps": [
+      {
+        "name": "the user clicks the cancel order button",
+        "aggregatedDurations": {
+          "average": 3.265891856,
+          "median": 3.265891856
+        },
+        "durations": [
+          {
+            "duration": 3.265891856,
+            "location": "Features/Side_tray_add_sell_order.feature:153"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user clicks the preview button from the draft order screen$",
+    "steps": [
+      {
+        "name": "the user clicks the preview button from the draft order screen",
+        "aggregatedDurations": {
+          "average": 2.16665847,
+          "median": 2.16665847
+        },
+        "durations": [
+          {
+            "duration": 2.149667217,
+            "location": "Features/Side_tray_add_sell_order.feature:161"
+          },
+          {
+            "duration": 2.183649724,
+            "location": "Features/Side_tray_add_sell_order.feature:181"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user clicks the ‘Place an order’ button$",
+    "steps": [
+      {
+        "name": "the user clicks the ‘Place an order’ button",
+        "aggregatedDurations": {
+          "average": 4.1244534,
+          "median": 4.1244534
+        },
+        "durations": [
+          {
+            "duration": 4.1244534,
+            "location": "Features/Side_tray_add_sell_order.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should get the result based on the search keyword and select the portfolio_holding$",
+    "steps": [
+      {
+        "name": "user should get the result based on the search keyword and select the portfolio_holding",
+        "aggregatedDurations": {
+          "average": 3.308375339,
+          "median": 3.308375339
+        },
+        "durations": [
+          {
+            "duration": 3.308375339,
+            "location": "Features/Side_tray_add_sell_order.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Disclaimer popup should be display$",
+    "steps": [
+      {
+        "name": "Disclaimer popup should be display",
+        "aggregatedDurations": {
+          "average": 3.144233251,
+          "median": 3.144233251
+        },
+        "durations": [
+          {
+            "duration": 3.144233251,
+            "location": "Features/Side_tray_add_sell_order.feature:189"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user clicks the sell button and places the another order$",
+    "steps": [
+      {
+        "name": "the user clicks the sell button and places the another order",
+        "aggregatedDurations": {
+          "average": 28.319017694,
+          "median": 28.319017694
+        },
+        "durations": [
+          {
+            "duration": 28.319017694,
+            "location": "Features/Side_tray_add_sell_order.feature:135"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^‘Add’ button should be in disable mode$",
+    "steps": [
+      {
+        "name": "‘Add’ button should be in disable mode",
+        "aggregatedDurations": {
+          "average": 2.049652703,
+          "median": 2.049652703
+        },
+        "durations": [
+          {
+            "duration": 2.049652703,
+            "location": "Features/Side_tray_add_sell_order.feature:64"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^‘Add a sell order’ extended side tray should be display$",
+    "steps": [
+      {
+        "name": "‘Add a sell order’ extended side tray should be display",
+        "aggregatedDurations": {
+          "average": 0.045387215,
+          "median": 0.045387215
+        },
+        "durations": [
+          {
+            "duration": 0.045387215,
+            "location": "Features/Side_tray_add_sell_order.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks the disclaimer link from the preview order screen footer$",
+    "steps": [
+      {
+        "name": "user clicks the disclaimer link from the preview order screen footer",
+        "aggregatedDurations": {
+          "average": 6.142854892,
+          "median": 6.142854892
+        },
+        "durations": [
+          {
+            "duration": 6.142854892,
+            "location": "Features/Side_tray_add_sell_order.feature:188"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user select the ’Yes’ option$",
+    "steps": [
+      {
+        "name": "user select the ’Yes’ option",
+        "aggregatedDurations": {
+          "average": 2.164405599,
+          "median": 2.164405599
+        },
+        "durations": [
+          {
+            "duration": 2.164405599,
+            "location": "Features/Side_tray_add_sell_order.feature:99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^confirmation pop-up message should be displayed on the screen$",
+    "steps": [
+      {
+        "name": "confirmation pop-up message should be displayed on the screen",
+        "aggregatedDurations": {
+          "average": 2.125913107,
+          "median": 2.125913107
+        },
+        "durations": [
+          {
+            "duration": 2.125913107,
+            "location": "Features/Side_tray_add_sell_order.feature:142"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is on place an order side tray$",
+    "steps": [
+      {
+        "name": "user is on place an order side tray",
+        "aggregatedDurations": {
+          "average": 3.194906852,
+          "median": 3.194906852
+        },
+        "durations": [
+          {
+            "duration": 3.207295066,
+            "location": "Features/Side_tray_add_sell_order.feature:19"
+          },
+          {
+            "duration": 3.182518638,
+            "location": "Features/Side_tray_add_sell_order.feature:25"
+          }
+        ]
+      }
+    ]
+  }
+]

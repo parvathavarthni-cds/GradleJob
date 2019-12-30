@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="29" time="481.581848">
+<testcase classname="ADD Sell order side tray validation" name="Validate the Place an order button on PV Screen for the portfolios which is up-to-date" time="71.884822">
+<system-out><![CDATA[Given user is on Hive DashBoard screen......................................passed
+When user selects any portfolio from portfolio dropdown which is up-to-date.passed
+Then page should be navigated to selected Portfolio summary screen and ‘Place an Order’ button should be enabled on PV screen.passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="Validate the Place order side tray" time="10.690355">
+<system-out><![CDATA[Given user is on Portfolio screen...........................................passed
+When the user clicks the ‘Place an order’ button............................passed
+Then place order side tray should open......................................passed
+And place order, portfolio dropdown should be pre-populated the selected portfolio tab.passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="Validate the search portfolio from side tray" time="34.479725">
+<system-out><![CDATA[Given user is on place an order side tray...................................passed
+When user clicks the portfolio dropdown in `place an order` side tray.......passed
+Then user should be able to search different portfolios from the portfolio dropdown.passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="Validate the sell order screen" time="11.425401">
+<system-out><![CDATA[Given user is on place an order side tray...................................passed
+When the user clicks the sell order button..................................passed
+Then ‘Add a sell order’ extended side tray should be display................passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="Validate the cancel button in extended side tray" time="19.513485">
+<system-out><![CDATA[Given user is on ‘Add a sell order’ extended side tray......................passed
+When the user clicks the cancel button from the extended side tray..........passed
+Then extended side tray should be closed and the user should navigate back to place order side tray.passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="Validate the portfolio holding searchbox" time="19.899415">
+<system-out><![CDATA[Given user is on ‘Add a sell order’ extended side tray......................passed
+When user search for any portfolio holding using the searchbox..............passed
+Then user should get the result based on the search keyword and select the portfolio_holding.passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="Validate the exit price" time="3.12206">
+<system-out><![CDATA[Given user is on ‘Add a sell order’ extended side tray......................passed
+When user finds the availble exit price of that portfolio holding on extended side tray.passed
+Then available exit price for that unit should be displayed with est.label..passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="Validate the Order amount field on add sell order screen" time="5.225824">
+<system-out><![CDATA[Given user is on ‘Add a sell order’ extended side tray......................passed
+When the user clicks anywhere in the screen without entering anything on the order amount field.passed
+Then error message should be displayed under the order amount screen........passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="Validate the order amount field validation" time="5.259336">
+<system-out><![CDATA[Given user is on ‘Add a sell order’ extended side tray......................passed
+When the user enters the Special character and text values in the order amount text box.passed
+Then user should not be allowed to enter the special character and text values into the order amount field.passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="Validate the add button on the ‘add a sell order button’" time="5.162577">
+<system-out><![CDATA[Given user is on ‘Add a sell order’ extended side tray......................passed
+When the user didn’t enter/select anything on the screen....................passed
+Then ‘Add’ button should be in disable mode.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="validate the maximum order amount" time="5.356059">
+<system-out><![CDATA[Given user is on ‘Add a sell order’ extended side tray......................passed
+When the user enters more than available units..............................passed
+Then error message should be displayed under the order amount text box......passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="validate order amount and available units are the same" time="5.481795">
+<system-out><![CDATA[Given user is on ‘Add a sell order’ extended side tray......................passed
+When the user enter the enters the order amount which is equal to available units.passed
+Then user should get the 'Full redemption' message under the order value text box.passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="Validate the order value calculation" time="3.398939">
+<system-out><![CDATA[Given user is on ‘Add a sell order’ extended side tray......................passed
+When the user enters the order units........................................passed
+Then order units should be multiplied with the exit price and the result should be subtracted with a transaction fee.passed
+And Final calculated value should be displayed as order value est with 2 decimal places.passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="Validate the Advice given ’No’ radio button" time="5.491039">
+<system-out><![CDATA[Given user is on ‘Add a sell order’ extended side tray......................passed
+When user select the ’No’ option............................................passed
+Then 'Advice given' details should not be displayed.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="validate the Advice given ‘Yes’ radio button" time="10.271207">
+<system-out><![CDATA[Given user is on ‘Add a sell order’ extended side tray......................passed
+When user select the ’Yes’ option...........................................passed
+Then advice reason, date, summary and advice method fields should be display under the advice given label.passed
+And Date field should have todays's field as default........................passed
+And add button should be enabled............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="Validate the draft order page" time="8.314569">
+<system-out><![CDATA[Given user is on ‘Add a sell order’ extended side tray......................passed
+When the user clicks the add button from Add a sell order extended side tray.passed
+Then order should be saved as draft order and should be displayed on the place order screen.passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="Validate the draft order" time="5.188332">
+<system-out><![CDATA[Given user is on the draft order screen.....................................passed
+When user click the available draft order...................................passed
+Then add sell order extended side tray should open and user should be able to edit the order.passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="validate the edit order" time="12.420999">
+<system-out><![CDATA[Given user is on the edit order screen......................................passed
+When user changes the different asset or order value........................passed
+And click the update button.................................................passed
+Then updated new changes should be displayed in the draft order screen......passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="Validate the multiple orders" time="30.478424">
+<system-out><![CDATA[Given user is on the draft order screen.....................................passed
+When the user clicks the sell button and places the another order...........passed
+Then newly placed order should be displayed under the previous order on the draft order screen.passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="validate the close order button" time="4.381891">
+<system-out><![CDATA[Given user is on the draft order screen.....................................passed
+When user clicks the close button for any draft order card..................passed
+Then confirmation pop-up message should be displayed on the screen..........passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="Validate the Go back button on the confirmation popup" time="5.384984">
+<system-out><![CDATA[Given user is can able to view the confirmation pop-up for close order......passed
+When the user clicks the Go back button.....................................passed
+Then that order should not be closed and order should be displayed on the draft order screen.passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="Validate the cancel order button on the confirmation popup" time="14.632583">
+<system-out><![CDATA[Given user is can able to view the confirmation popup for close order.......passed
+When the user clicks the cancel order button................................passed
+Then that particular order should be get disappear from the draft order screen.passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="validate the preview screen" time="7.421564">
+<system-out><![CDATA[Given user is on the draft order screen.....................................passed
+When the user clicks the preview button from the draft order screen.........passed
+Then User should navigate to the preview order screen.......................passed
+And transaction summary value on preview order screen and addition of draft orders value should be same.passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="Validate the Preview order screen" time="5.153018">
+<system-out><![CDATA[Given user is on the preview order screen...................................passed
+When the user finds before and after portfolio impact of the available units.passed
+Then available units should be reduced based on the order units for that Asset type.passed
+And Asset name and asset code should be displayed under the before and after impacts of Units.passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="Validate the back button on preview order screen" time="7.187491">
+<system-out><![CDATA[Given user is on the preview order screen...................................passed
+When user clicks the back button............................................passed
+Then User should be navigated to the order draft screen.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="Validate the Confirm order button" time="7.282938">
+<system-out><![CDATA[Given user is on the draft order screen.....................................passed
+When the user clicks the preview button from the draft order screen.........passed
+And the user didn’t select the disclaimer checkbox..........................passed
+Then Confirm order button should be in disable mode.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="Validate the disclaimer acknowledgement pop-up" time="14.385613">
+<system-out><![CDATA[Given user is on the preview order screen...................................passed
+When user clicks the disclaimer link from the preview order screen footer...passed
+Then Disclaimer popup should be display.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="validate the disclaimer checkbox" time="7.157286">
+<system-out><![CDATA[Given user is on the preview order screen...................................passed
+When User selects the disclaimer checkbox...................................passed
+Then Order Confirm button should be enabled.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="ADD Sell order side tray validation" name="Validate the order confirmation button" time="135.530117">
+<failure message="org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: confirm-order-container' (tried for 120 second(s) with 500 milliseconds interval)&#10;&#9;at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)&#10;&#9;at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)&#10;&#9;at com.pw.publicLib.UIHandler_2.wait_until_clickable(UIHandler_2.java:1856)&#10;&#9;at com.pw.publicLib.UIHandler_2.valdiate_order_confirmation(UIHandler_2.java:1829)&#10;&#9;at com.pw.pw_screens.Add_sell_order.order_should_be_submitted(Add_sell_order.java:587)&#10;&#9;at ✽.Then Order should be submitted(Features/Side_tray_add_sell_order.feature:201)&#10;Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;confirm-order-container&quot;}&#10;  (Session info: chrome=72.0.3626.81)&#10;  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.15.0-66-generic x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'parvatha-varthni', ip: '192.168.43.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-66-generic', java.version: '1.8.0_222'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628388 (4a34a70827ac54..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:34709}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.81, webStorageEnabled: true}&#10;Session ID: 72f01421a3001bcfc7bb99566724f33d&#10;*** Element info: {Using=id, value=confirm-order-container}&#10;&#9;at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#10;&#9;at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)&#10;&#9;at org.openqa.selenium.By$ById.findElement(By.java:188)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#10;&#9;at com.sun.proxy.$Proxy19.isDisplayed(Unknown Source)&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)&#10;&#9;at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)&#10;&#9;at com.pw.publicLib.UIHandler_2.wait_until_clickable(UIHandler_2.java:1856)&#10;&#9;at com.pw.publicLib.UIHandler_2.valdiate_order_confirmation(UIHandler_2.java:1829)&#10;&#9;at com.pw.pw_screens.Add_sell_order.order_should_be_submitted(Add_sell_order.java:587)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:40)&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:34)&#10;&#9;at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)&#10;&#9;at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)&#10;&#9;at cucumber.runtime.Runtime.runStep(Runtime.java:300)&#10;&#9;at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)&#10;&#9;at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)&#10;&#9;at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)&#10;&#9;at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)&#10;&#9;at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)&#10;&#9;at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#10;&#9;at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)&#10;&#9;at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)&#10;&#9;at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)&#10;&#9;at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)&#10;&#9;at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)&#10;&#9;at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)&#10;&#9;at org.testng.TestRunner.privateRun(TestRunner.java:648)&#10;&#9;at org.testng.TestRunner.run(TestRunner.java:505)&#10;&#9;at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)&#10;&#9;at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)&#10;&#9;at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)&#10;&#9;at org.testng.SuiteRunner.run(SuiteRunner.java:364)&#10;&#9;at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)&#10;&#9;at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)&#10;&#9;at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)&#10;&#9;at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)&#10;&#9;at org.testng.TestNG.runSuites(TestNG.java:1049)&#10;&#9;at org.testng.TestNG.run(TestNG.java:1017)&#10;&#9;at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)&#10;&#9;at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)&#10;&#9;at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)&#10;"><![CDATA[Given user is on the preview order screen...................................passed
+When User click the order confirm button after selecting all the mandatory fields.passed
+Then Order should be submitted..............................................failed
+And unique reference number should be generated for each order on order confirmation screen.skipped
+
+StackTrace:
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: confirm-order-container' (tried for 120 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.pw.publicLib.UIHandler_2.wait_until_clickable(UIHandler_2.java:1856)
+	at com.pw.publicLib.UIHandler_2.valdiate_order_confirmation(UIHandler_2.java:1829)
+	at com.pw.pw_screens.Add_sell_order.order_should_be_submitted(Add_sell_order.java:587)
+	at ✽.Then Order should be submitted(Features/Side_tray_add_sell_order.feature:201)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"confirm-order-container"}
+  (Session info: chrome=72.0.3626.81)
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.15.0-66-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'parvatha-varthni', ip: '192.168.43.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-66-generic', java.version: '1.8.0_222'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628388 (4a34a70827ac54..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:34709}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.81, webStorageEnabled: true}
+Session ID: 72f01421a3001bcfc7bb99566724f33d
+*** Element info: {Using=id, value=confirm-order-container}
+	at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy19.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.pw.publicLib.UIHandler_2.wait_until_clickable(UIHandler_2.java:1856)
+	at com.pw.publicLib.UIHandler_2.valdiate_order_confirmation(UIHandler_2.java:1829)
+	at com.pw.pw_screens.Add_sell_order.order_should_be_submitted(Add_sell_order.java:587)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]></failure>
+</testcase>
+</testsuite>

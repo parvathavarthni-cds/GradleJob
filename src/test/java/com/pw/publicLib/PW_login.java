@@ -20,9 +20,9 @@ public class PW_login {
 		driver = new ChromeDriver(chromeOptions);
 		
 		//driver = new ChromeDriver();
-		//driver.get(HomePageURL);
-		//driver.manage().window().setSize(new Dimension(1920, 1080));
-		//driver.manage().window().maximize();
+		driver.get(HomePageURL);
+		driver.manage().window().setSize(new Dimension(1920, 1080));
+		driver.manage().window().maximize();
 		return driver;
 		
 	}

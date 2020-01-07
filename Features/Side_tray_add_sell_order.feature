@@ -195,9 +195,9 @@ Feature: ADD Sell order side tray validation
 	Then  Order Confirm button should be enabled
 	
 	# @RegressionTest @SmokeTest
-	Scenario: Validate the order confirmation button
-	Given  user is on the preview order screen
-	When  User click the order confirm button after selecting all the mandatory fields
-	Then  Order should be submitted
-	And  unique reference number should be generated for each order on order confirmation screen
+#	Scenario: Validate the order confirmation button
+#	Given  user is on the preview order screen
+#	When  User click the order confirm button after selecting all the mandatory fields
+#	Then  Order should be submitted
+#	And  unique reference number should be generated for each order on order confirmation screen
 	
